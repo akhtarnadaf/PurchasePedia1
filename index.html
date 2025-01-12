@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PurchasePedia - Product Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1 class="title">PurchasePedia</h1>
+        <!img src="cart.png" alt="Shopping Cart" width="60" height="45" onerror="this.src='fallback.png';">
+    </header>
+
+    <!-- Search Section -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for products..." aria-label="Search for products" />
+        <button id="searchBtn" aria-label="Search">Search</button>
+    </div>
+
+    <!-- Product Container -->
+    <div id="product-container" class="product-container">
+        <!-- Sample Product Card -->
+        <div class="product-card">
+            
+            <h2 class="product-title">Sample Product Name</h2>
+            <p class="product-description">This is a brief description of the sample product.</p>
+            <p class="product-price">$99.99</p>
+            <button class="compare-btn">Compare</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer>
+        <p>&copy; 2025 PurchasePedia. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

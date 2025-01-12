@@ -1,0 +1,109 @@
+/* General Body Styling with Background Image */
+body {
+    background-image: url('banner-bg.png'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Adjust text color for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* Styling the Search Bar and Button */
+.search-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#searchInput {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#searchBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the Product Container and Cards */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    color: #333; /* Text color for product cards */
+}
+
+.product-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.product-card .compare-btn {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-card .compare-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Footer Section */
+footer {
+    position: fixed; /* Ensures the footer stays at the bottom */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Stretch the footer across the page width */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 1000; /* Ensures it's above other content */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for style */
+}
